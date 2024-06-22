@@ -44,3 +44,15 @@ function-Function Object
  */
 
 console.log(typeof bigNumber);
+
+/* Stack
+-Primitive Datatypes
+-only copy of object is passed 
+-myyoutubeName=anotherName
+*/
+
+/*Heap
+-NonPrimitve Datatypes
+-Reference is passed
+-Changes are made in the real one
+ */
