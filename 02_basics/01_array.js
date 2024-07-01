@@ -34,3 +34,5 @@ console.log("B ",myArr);
 const my2 = myArr.splice(1,3); //removes the specified range from array and also returns it.(last index is also included)
 console.log("C ",my2);
 console.log(myArr)
+
+//splice(start, deleteCount, item1, item2)
