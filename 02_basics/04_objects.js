@@ -48,16 +48,25 @@ const users = [
     }
 ]
 
-console.log(users[0].id);
-console.log(instaUser);
+// console.log(users[0].id);
+// console.log(instaUser);
 
-console.log(Object.keys(instaUser)); //returns array of keys
-console.log(Object.values(instaUser)); //returns array of values
-console.log(Object.entries(instaUser)); //returns nested array of each key:value pair
-console.log(instaUser.hasOwnProperty('isLoggedIn')); //returns if the key is present or not
+// console.log(Object.keys(instaUser)); //returns array of keys
+// console.log(Object.values(instaUser)); //returns array of values
+// console.log(Object.entries(instaUser)); //returns nested array of each key:value pair
+// console.log(instaUser.hasOwnProperty('isLoggedIn')); //returns if the key is present or not
 
+//Object Destructuring
 
+const course = {
+    courseName:"JS",
+    courseInstructor:"Hishita"
+}
 
+const {courseInstructor:instructor}=course;
+console.log(instructor);
+
+//JSON - Javascript Object Notation
 
 
 
